@@ -1,3 +1,4 @@
+# 必做题第一题
 # 对于串行GC
 - 执行 java -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseSerialGC -Xms128m -Xmx128m GCLogAnalysis
 - 堆内存执行了多次Full GC 并且最后发生了OOM，大概16毫秒发生一次youngGC
